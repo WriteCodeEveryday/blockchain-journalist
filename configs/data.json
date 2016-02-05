@@ -20,13 +20,16 @@
 			"title": "Could #{Agency} make themselves more efficient with the blockchain?",
 			"reqs":["Agency"]
 		},{
-			"title": "Could the blockchain technology revolutionize #{Field}? #{Agency} says yes",
+			"title": "Could the blockchain technology revolutionize #{Field}? #{Agency} says yes.",
 			"reqs":["Field","Agency"]
 		},{
-			"title": "Could the blockchain technology revolutionize #{Field}? Industry insider #{Person} says it could",
+			"title": "Could the blockchain technology revolutionize #{Field}? Industry insider #{Person} says it could.",
 			"reqs":["Field","Person"]
 		},{
-			"title": "Could the blockchain technology revolutionize #{Field}? #{Person} from #{Agency} weighs in",
+			"title": "Could #{Agency} make themselves more efficient with the blockchain? Inside source #{Person} says it could.",
+			"reqs":["Agency","Person"]
+		},{
+			"title": "Could the blockchain technology revolutionize #{Field}? #{Person} from #{Agency} weighs in.",
 			"reqs":["Field","Agency","Person"]
 		}
 	],
@@ -72,12 +75,12 @@
 			"position":0
 		},
 		{
-			"text":"In an disclosure statement to the SEC, #{Agency} has disclosed it's experiments with the blockchain technology. As quoted in the report, '#{Person Quote}', this would lead to lower costs by using the immutable blockchain for something it was not initially designed for",
+			"text":"In an disclosure statement to the SEC, #{Agency} has disclosed it's experiments with the blockchain technology. As quoted in the report, '#{Person Quote}', this would lead to lower costs by using the immutable blockchain for something it was not initially designed for.",
 			"reqs":["Agency","Person Quote"],
 			"position":0
 		},
 		{
-			"text":"#{Agency}, an industry leader in the field of #{Field} has announced it is experimenting with blockchain technology. Insider #{Person} assured stockholders that this would lead to decreased operation costs by using the immutable blockchain for something it was not initially designed for",
+			"text":"#{Agency}, an industry leader in the field of #{Field} has announced it is experimenting with blockchain technology. Insider #{Person} assured stockholders that this would lead to decreased operation costs by using the immutable blockchain for something it was not initially designed for.",
 			"reqs":["Agency","Field","Person"],
 			"position":0
 		},
@@ -87,44 +90,64 @@
 			"position":0
 		},
 		{
-			"text":"#{Agency}, an industry leader in the field of #{Field} has announced it is experimenting with blockchain technology. As quoted in the announcement, '#{Person Quote}', this would lead to lower costs by using the immutable blockchain for something it was not initially designed for",
+			"text":"#{Agency}, an industry leader in the field of #{Field} has announced it is experimenting with blockchain technology. As quoted in the announcement, '#{Person Quote}', this would lead to lower costs by using the immutable blockchain for something it was not initially designed for.",
 			"reqs":["Agency","Field","Person Quote"],
 			"position":0
 		},
 		{
-			"text":"#{Agency}, an industry leader in the field of #{Field} has announced it is experimenting with blockchain technology. A #{Person Details} insider, #{Person}, assured stockholders that this would lead to decreased operation costs by using the immutable blockchain for something it was not initially designed for",
+			"text":"#{Agency}, an industry leader in the field of #{Field} has announced it is experimenting with blockchain technology. A #{Person Details} insider, #{Person}, assured stockholders that this would lead to decreased operation costs by using the immutable blockchain for something it was not initially designed for.",
 			"reqs":["Agency","Field","Person","Person Details"],
 			"position":0
 		},
 		{
-			"text":"#{Agency}, an industry leader in the field of #{Field} has announced it is experimenting with blockchain technology. #{Person}, quoted as saying '#{Person Quote}' assured stockholders that this would lead to decreased operation costs by using the immutable blockchain for something it was not initially designed for",
+			"text":"#{Agency}, an industry leader in the field of #{Field} has announced it is experimenting with blockchain technology. #{Person}, quoted as saying '#{Person Quote}' assured stockholders that this would lead to decreased operation costs by using the immutable blockchain for something it was not initially designed for.",
 			"reqs":["Agency","Field","Person","Person Quote"],
 			"position":0
 		},
 		{
-			"text":"#{Agency}, an industry leader in the field of #{Field} has announced it is experimenting with blockchain technology. A #{Person Details} insider, quoted as saying '#{Person Quote}' assured stockholders that this would lead to decreased operation costs by using the immutable blockchain for something it was not initially designed for",
+			"text":"#{Agency}, an industry leader in the field of #{Field} has announced it is experimenting with blockchain technology. A #{Person Details} insider, quoted as saying '#{Person Quote}' assured stockholders that this would lead to decreased operation costs by using the immutable blockchain for something it was not initially designed for.",
 			"reqs":["Agency","Field","Person Details","Person Quote"],
 			"position":0
 		},
 		{
-			"text":"\nThe key components of blockchain technology, being able to inspect the ledger and write to it without a central entity dictating the rules allows the cross-business collaboration. For most industries, being able to manage items in the real world with multiple companies participating can reduce operation costs to lower and lower levels.",
+			"text":"\n\nThe key components of blockchain technology, being able to inspect the ledger and write to it without a central entity dictating the rules allows the cross-business collaboration. For most industries, being able to manage items in the real world with multiple companies participating can reduce operation costs to lower and lower levels. One of the key components behind Bitcoin, the blockchain has been recognized as being a public ledger that can be used for assigning value without having to trust a specific company or bank. Coming from nothing in 2009, Bitcoin has become a major force for good, achieving better stability (and deflationary value) than many global currencies between 2009 and now (exception being 2013). The currency has had an uphill battle for it's usage in dark market dealings, mainly for enabling the purchasing of drugs. Just like cash, it can be used to purchase tobacco, alcohol and even acetaminophen. As more and more industries enter into the blockchain environments, we may see far more investment in this technology with the intent of reducing cost or allowing for distributed assignment of assets both in the virtual or real world.",
 			"reqs":[],
 			"position":1
 		},
 		{
-			"text":"\nOne of the key components behind Bitcoin, the blockchain has been recognized as being a public ledger that can be used for assigning value without having to trust a specific company or bank. Coming from nothing in 2009, Bitcoin has become a major force for good, achieving better stability (and deflationary value) than many global currencies between 2009 and now (exception being 2013). The currency has had an uphill battle for it's usage in dark market dealings, mainly for enabling the purchasing of drugs. Just like cash, it can be used to purchase tobacco, alcohol and even acetaminophen.",
-			"reqs":[],
+			"text":"\n\nAlthough a profitable industry, #{Field} has had it's own issues with keeping pace with the technology industry. Last year, the industry leaders reported a loss of nearly 1.3 billion USD from extended contracts on ancient technology from as far as 1963 that powers it's critical business. The advantage of updating these components with blockchain technology would reduce costs by more than 60% for the companies in the industry.",
+			"reqs":["Field"],
+			"position": 2
+		},
+		{
+			"text":"\n\nOne of the most profitable leaders in the space, #{Agency} has reported it's own internal costs for maintaining software that it relies on would exceed the mind-numbing amount of 800 million USD this year and expected to rise over the next 10 years. The cost of maintaining this software with blockchain technology would lower overhead by more than 50% for the market leader.",
+			"reqs":["Agency"],
 			"position":2
 		},
 		{
-			"text":"\nAs more and more industries enter into the blockchain environments, we may see far more investment in this technology with the intent of reducing cost or allowing for distributed assignment of assets both in the virtual or real world.",
-			"reqs":[],
+			"text":"\n\nWith rising costs of operations, the #{Field} industry is expected to spend more than 1.6 billion USD dollars in maintenance over the next 6 months. Market champion #{Agency} has estimated it's own costs will lapse close to 3 billion USD over the next 10 years. The advantage of integrating blockchain technology would reduce these costs by about 65% in the next few years.",
+			"reqs":["Agency", "Field"],
+			"position":2
+		},
+		{
+			"text":"#{Person}, an industry veteran from the #{Field} industry commented on the news, saying that the field had already implemented other technologies such as electricity, computers and the internet in order to save on costs in the past.",
+			"reqs":["Field","Person"],
 			"position":3
 		},
 		{
-			"text":"\nInspired by existing blockchain articles, the output from this Chrome Application (https://github.com/AtheistOfFail/blockchain-journalist) was designed, developed, and produced by a multicultural, altcoin-supporting team of various beliefs, sexual orientations, gender identities, net worth, and feet size.",
-			"reqs":[],
+			"text":"#{Person}, an employee from the market leader #{Agency} commented on the news, saying that theu had already implemented other technologies such as electricity, computers and the internet in order to save on costs in the past.",
+			"reqs":["Agency","Person"],
+			"position":3
+		},
+		{
+			"text":"#{Person}, a #{Person Details} insider close to the blockchain project thinks that this could be one of the smartest updates to the industry in a while.",
+			"reqs":["Person","Person Details"],
 			"position":4
+		},
+		{
+			"text":"\n\nInspired by existing blockchain articles, the output from this Chrome Application (https://github.com/AtheistOfFail/blockchain-journalist) was designed, developed, and produced by a multicultural, altcoin-supporting team of various beliefs, sexual orientations, gender identities, net worth, number of girlfriends, and feet size.",
+			"reqs":[],
+			"position":5
 		}
 	]
 }
