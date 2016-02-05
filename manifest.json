@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Blockchain Journalist",
+  "description": "Generate Blockchain Stories to ensure the Blockchain succeeds - truth or false, doesn't matter, just 'BLOCKCHAIN'",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "journalist.png",
+    "default_popup": "index.html",
+    "default_title": "Blockchain Journalist"
+  }
+}
